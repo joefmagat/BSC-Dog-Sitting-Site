@@ -2,6 +2,7 @@ body {
     font-family: "Quicksand", sans-serif;
 }
 
+/* ----------------------------- Banner ---------------------------------------------*/
 .container-banner {
     position: relative;
     width: 100%;
@@ -24,7 +25,7 @@ body {
 }
 
 .button-LearnMore {
-    font-size: clamp(1rem,1rem, 1rem);
+    font-size: clamp(1rem, 1rem, 1rem);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -41,7 +42,9 @@ body {
     color: #ffffff;
 }
 
+/* ------------------------------- Our Services -------------------------------- */
 .container-OurServices {
+    padding-top: 40px;
     font-size: 20px;
     position: relative;
     max-width: 30%;
@@ -49,10 +52,60 @@ body {
     text-align: center;
 }
 
-.container-card {
-
+/* ------------------------------- Card Section -------------------------------- */
+.container-grid {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    justify-content: center;
+    gap: 30px;
 }
 
-.container-card img {
+.card {
+    width: 400px;
+    place-self: center;
+    border: 1px solid #181818;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+}
+
+.card-text{
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.card-LearnMore {
+    /* Learn More */
+    width: 100px;
+    height: 23px;
+
+    /* Body/Link */
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #DE6C17;
+}
+
+.card-LearnMoreArrow {
+    /* Line 3 Copy */
+
+    width: 11px;
+    height: 6px;
+
+    border: 3px solid #DE6C17;
+    transform: rotate(-90deg);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
 
 }
