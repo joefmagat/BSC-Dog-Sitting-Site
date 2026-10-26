@@ -1,0 +1,28 @@
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+.button-LearnMore {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 33px;
+    gap: 10px;
+
+    position: relative;
+    width: 167px;
+    height: 48px;
+    left: 20px;
+    top: 20px;
+
+    background: #DE6C17;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.img-banner{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
