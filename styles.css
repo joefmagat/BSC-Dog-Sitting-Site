@@ -154,7 +154,8 @@ body {
     .img-bannerWave {
         position: absolute;
         width: 100%;
-        top: 96%;
+        top: 85%;
+        height: 100px;
     }
 
     .banner-gradient {
