@@ -15,6 +15,12 @@ body {
     height: auto;
 }
 
+.img-bannerWave {
+    position: absolute;
+    width: 100%;
+    top: 90%;
+}
+
 .banner-text {
     font-size: clamp(0.1rem, 1.5vw, 1.5rem);
     position: absolute;
@@ -158,8 +164,6 @@ body {
         border-radius: 10px 10px 0px 0px;
     }
 
-    .card-text {
-
-    }
+    .card-text {}
 
 }
