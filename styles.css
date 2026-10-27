@@ -46,7 +46,7 @@ body {
     color: #6e5e5e;
 }
 
-.container-title{
+.container-title {
     color: #36413C;
 }
 
@@ -88,8 +88,9 @@ body {
 }
 
 .card-LearnMore {
+    display: flex;
     /* Learn More */
-    width: 100px;
+    width: 200px;
     height: 23px;
 
     /* Body/Link */
@@ -103,22 +104,11 @@ body {
     color: #DE6C17;
 }
 
-.card-LearnMoreArrow {
-    /* Line 3 Copy */
-
-    width: 11px;
-    height: 6px;
-
-    border: 3px solid #DE6C17;
-    transform: rotate(-90deg);
-
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-
-
+.card-Arrow {
+    position: relative;
+    padding-left: 10px;
 }
+
 
 @media (max-width: 1300px) {
     .container-grid {
@@ -142,21 +132,5 @@ body {
 
     .card-text {
         align-self: center;
-    }
-
-    .card-LearnMore {
-        /* Learn More */
-        width: 100px;
-        height: 23px;
-
-        /* Body/Link */
-        font-family: 'Quicksand';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 22px;
-        /* identical to box height */
-
-        color: #DE6C17;
     }
 }
