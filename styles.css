@@ -109,7 +109,7 @@ body {
     padding-left: 10px;
 }
 
-
+/* for tablets and resized desktop browsers */
 @media (max-width: 1300px) {
     .container-grid {
         grid-template-columns: 1fr;
@@ -133,4 +133,33 @@ body {
     .card-text {
         align-self: center;
     }
+}
+
+/* for phones */
+@media (max-width: 600px) {
+
+    .container-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        width: 300px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-img {
+        width: 100%;
+        height: auto;
+        align-self: flex-start;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .card-text {
+
+    }
+
 }
